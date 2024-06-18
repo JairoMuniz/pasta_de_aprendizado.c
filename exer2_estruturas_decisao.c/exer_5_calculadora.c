@@ -41,7 +41,7 @@ int main(){
                 scanf("%d", &n2);
                 resultado_mult = n1*n2;
 
-                printf("%d - %d = %d\n", n1, n2, resultado_mult);
+                printf("%d x %d = %d\n", n1, n2, resultado_mult);
 
                 break;
             
@@ -57,4 +57,6 @@ int main(){
 
                 break;
                         }
+    system("pause");
+    return 0;
 }
